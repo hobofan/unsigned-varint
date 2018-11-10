@@ -8,6 +8,8 @@ repository = "https://github.com/paritytech/unsigned-varint"
 readme = "README.md"
 
 [features]
+default = ["std"]
+std = []
 codec = ["bytes", "tokio-codec"]
 
 [dependencies]
